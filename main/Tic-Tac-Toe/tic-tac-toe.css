@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.square {
+    /* width: 15rem; */
+    height: 8rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-left: none;
+    color: black;
+    font-size: 5em;
+}

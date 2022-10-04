@@ -1,0 +1,47 @@
+.container-s {
+    padding: 3rem 10%;
+}
+
+.sneakers-intro h1 {
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.sneakers-intro p {
+    max-width: 50rem;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.sneakers-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    padding: 2rem 0;
+    gap: 10px;
+    row-gap: 20px;
+
+}
+
+/* PHONE */
+@media (max-width:576px) {
+    .sneakers-container {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .container-s {
+        padding: 2rem 1%;
+    }
+
+    .sneakers-intro{
+        padding: 0 1rem;
+    }
+
+    .sneakers-intro h1 {
+        font-size: 16px;
+        margin: 0 0 0.5rem;
+    }
+
+    .sneakers-intro p {
+        font-size: 12px;
+    }
+}
